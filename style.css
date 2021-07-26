@@ -1,11 +1,7 @@
 body {
     background: rgb(110, 110, 107);
 }
-img {
-    object-fit:fill;
-    width: 200px;
-    height: 200px;
-}
+
 .wrapper {
     width: 200px;
     height: 200px;
