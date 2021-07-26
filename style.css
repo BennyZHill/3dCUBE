@@ -11,9 +11,10 @@ body {
     transform: translate(-50%, -50%);
 }
 .box-area {
-    animation: animate 20s ease-in-out infinite;
+    animation: animate 5s ease-in-out infinite;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
+   
 }
 
 .box-area div {
@@ -25,7 +26,7 @@ body {
 }
 
 .box-area .box1{
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
     background-color: black;
     background-size: cover;
     background-position: center center;
@@ -33,36 +34,36 @@ body {
     
 }
 .box-area .box2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     transform: rotateY(90deg) translateZ(100px);
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
 }
 .box-area .box3{
-    background-color: rgb(0, 255, 128);
+    background-color: rgb(255, 183, 0);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
 }
 .box-area .box4{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
 }
 .box-area .box5{
-    background-color: rgb(255, 0, 128);
+    background-color: rgb(179, 255, 0);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
 }
 .box-area .box6{
     background-color: rgb(255, 255, 255);
@@ -70,7 +71,7 @@ body {
     background-size: cover;
     background-position: center center;
     transform: rotateX(-90deg) translateZ(100px);
-    border: white solid 1px; 
+    border: rgb(0, 0, 0) solid 1px; 
 }
 
 @keyframes animate{
@@ -93,3 +94,7 @@ body {
         transform: rotateX(90deg);
     }
 }
+
+/* .wrapper, .box-area, .box1, .box2, .box3, .box4, .box5, .box6 {
+    transform: scale(0.08);
+} */
